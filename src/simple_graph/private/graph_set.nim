@@ -1,3 +1,6 @@
+## Basic Graph Implementation.
+## Component included by all Graph types.
+
 type GraphSet = ref object
   nodes: IntSet
   outEdges: Table[Node, IntSet]

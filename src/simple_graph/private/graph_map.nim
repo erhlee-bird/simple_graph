@@ -1,3 +1,6 @@
+## Graph Component to handle an internal generic mapping from object to node-id.
+## Used as a standard component for all Graph types.
+
 type GraphMap[T] = ref object
   ## Create a mapping between arbitrary objects to an internal node-id.
   keyToNode: Table[T, Node]
